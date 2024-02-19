@@ -1,15 +1,15 @@
-# serveur_client
+# server_client
 Implementing a server - client communication in C 
 
-#Exercice 2 : Un client TCP pour daytime
+# Exercice 2 : Un client TCP pour daytime
       Écrire un client qui se connecte au service daytime de la machine lampe et affiche l’heure renvoyée. On peut utiliser “en dur” l’adresse IPv4 de lampe. Ne pas oublier de fermer la connexion.
-#Exercice 3 : Un client TCP pour time
+# Exercice 3 : Un client TCP pour time
       Même question pour le service time de la machine monjetas. Au lieu de renvoyer une chaîne comme daytime, un serveur time renvoie un entier de 32 bits non-signé, représentant le nombre de secondes écoulées depuis le 1er janvier 1900. C’est différent d’un time_t Unix qui, lui, compte les secondes depuis 19701. Plusieurs conversions sont à faire :– depuis le network order au host order,– puis en time_t en retirant le nombre de secondes entre les premiers janvier 1900 et 1970,
       soit 2208988800L– enfin en chaîne pour affichage, avec ctime.
-#Exercice 4 : Un client TCP pour echo
+# Exercice 4 : Un client TCP pour echo
       Faire un client qui se connecte au service echo de la machine lampe de l’ufr et qui en boucle lui envoie un message et affiche la réponse du service (par exemple le client enverra Hello1, Hello2, Hello3,...,Hello10 au service et attendra la réponse du service entre chaque envoi).
 
-#Exercice 5 : Serveur echo IPv4
+# Exercice 5 : Serveur echo IPv4
  Écrire un serveur TCP implémentant le service echo (pour tout client se connectant en IPv4, le
  serveur répète au client tout ce que celui-ci lui envoie). On pourra écrire une première version
  où le serveur ne traitera qu’un seul client et s’arrêtera, et une deuxième où le serveur pourra
