@@ -1,5 +1,6 @@
 # server_client
 Implementing a server - client communication in C 
+~~ if the version of the server don't have a written client , use nc command (nc -4 <host> <port_number>)
 
 # Exercice 2 : Un client TCP pour daytime
       Écrire un client qui se connecte au service daytime de la machine lampe et affiche l’heure renvoyée. On peut utiliser “en dur” l’adresse IPv4 de lampe. Ne pas oublier de fermer la connexion.
