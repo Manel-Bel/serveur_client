@@ -31,3 +31,4 @@ tecter la fin d’un message). Au lieu d’envoyer et de recevoir des nombres co
  de caractères 0,...,9, changer le protocole et le code de façon à ce que :– le client envoie un entier au serveur sous la forme de deux octets correspondant à son
  codage en big-endian, et– le serveur réponde également sur deux octets : un entier sur un octet indiquant le
  nombre d’essais restant (0 si la partie est terminée), suivi de ...
+# Exercice 7 : Adaptation du jeu 6 avec threads et fork 
